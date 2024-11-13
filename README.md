@@ -64,3 +64,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+## Instructions to Run the Project
+
+1. **Install Composer and XAMPP**: Ensure that both Composer and XAMPP are installed on your system.
+2. **Configure PHP Path**: Make sure the PHP path is set up correctly.
+3. **Clone or Download the Repository**: Get a local copy of the project files.
+4. **Navigate to the Project Directory**: Use the command `cd your-project-name` to enter the project folder.
+5. **Start XAMPP Services**: Open XAMPP and start the Apache and MySQL services.
+6. **Run Database Migrations**: In the project directory, execute `php artisan migrate` to set up the database tables.
+7. **Start the Application**: Open a terminal in the project directory and run `php artisan serve`.
+8. **Access the Project**: Open your browser and go to [http://127.0.0.1:8000/] to view the application.
